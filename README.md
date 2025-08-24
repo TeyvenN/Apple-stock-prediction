@@ -306,8 +306,8 @@ If you use this code in your research, please cite:
 - **Questions**: Stack Overflow with `stock-prediction` tag
 
 ### Contact
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Email**: ndlovuteyven@gmail.com
+- **GitHub**: [@TeyveN](https://github.com/yourusername)
 
 ## Changelog
 
@@ -631,8 +631,8 @@ If you use this code in your research, please cite:
 - **Questions**: Stack Overflow with `stock-prediction` tag
 
 ### Contact
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Email**: ndlovuteyven@gmail.com
+- **GitHub**: [@TeyveN](https://github.com/TeyvenN)
 
 ## Changelog
 
