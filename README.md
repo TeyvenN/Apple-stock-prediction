@@ -83,16 +83,18 @@ future_pred = predictor.predict_future_with_confidence(
 
 The system typically achieves:
 - **R² Score**: 0.6-0.8 for best models
-- **Directional Accuracy**: 55-65% (above random chance)
-- **RMSE**: 5-15% of stock price depending on volatility
+- **Directional Accuracy**: 52-60% (above random chance)
+- **RMSE**: 3-9% of stock price, depending on volatility
 - **Risk-Adjusted Returns**: Positive Sharpe ratios in backtesting
 
 ### Model Comparison Example
 ```
 Model                 R²      RMSE    Directional Accuracy
-Random Forest        0.73     6.54    61.2%
-LSTM                 0.68     7.21    58.4%
-Ensemble             0.76     5.89    63.7%
+Ridge                0.86     3.71    54.76
+Linear               0.85     3.73    52.38
+Random Forest        0.23     8.55    53.57
+LSTM                 0.19     8.80    60.71%
+Ensemble             0.82     4.18    52.38%
 ```
 
 ## Technical Indicators Used
@@ -163,20 +165,6 @@ predictor.plot_future_predictions_with_confidence(
 )
 ```
 
-## File Structure
-
-```
-├── corrected_stock_predictor.py    # Main prediction system
-├── requirements.txt                # Dependencies
-├── README.md                      # Documentation
-├── examples/                      # Example scripts
-│   ├── basic_prediction.py
-│   ├── confidence_intervals.py
-│   └── risk_analysis.py
-└── tests/                        # Unit tests
-    ├── test_predictor.py
-    └── test_confidence.py
-```
 
 ## API Reference
 
