@@ -1,4 +1,4 @@
-# Stock Price Prediction with Confidence Intervals
+# Stock Price Prediction
 
 A comprehensive Python system for predicting stock prices using multiple machine learning models with uncertainty quantification and risk analysis.
 
